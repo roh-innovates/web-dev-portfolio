@@ -130,7 +130,7 @@ main section{
 /* skills section styles */
 .skills-container{
     display: flex;
-    gap: 24px;
+    /* gap: 5px; */
 }
 .skill{
     padding: 30px;
@@ -138,3 +138,32 @@ main section{
     border-radius: 5px;
     margin: 30px;
 }
+
+/* resume section styles */
+
+.section-title{
+    text-align: center;
+}
+
+.resume-container{
+    display: flex;
+    gap: 32px;
+}
+
+.experience-description, .from-where{
+    color: #757575;
+}
+
+.from-where{
+     font-size: 20ppx;
+     font-weight: 600;
+     margin-bottom: 20px;
+}
+
+.resume hr{
+   margin: 30px 5px;
+}
+.cv-download-btn{
+    margin: 80px;
+}
+
